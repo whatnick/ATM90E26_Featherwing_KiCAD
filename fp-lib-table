@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name ATM90E26_Featherwing)(type KiCad)(uri "$(KIPRJMOD)/ATM90E26_Featherwing.pretty")(options "")(descr ""))
+)
