@@ -38,17 +38,31 @@
             124867 -85439.2  125204 -85349  125552 -85318.6  171452 -85318.6
             171799 -85349)
     )
+    (plane /5V_REG (polygon Top 0  136500 -93500  146000 -93500  146000 -101000  136500 -101000
+            136500 -93500))
+    (plane /5V_REG (polygon Bottom 0  136500 -93500  146000 -93500  146000 -101000  136500 -101000
+            136500 -93500))
     (via "Via[0-1]_800:400_um")
     (rule
       (width 250)
-      (clearance 152.5)
-      (clearance 152.5 (type default_smd))
-      (clearance 38.1 (type smd_smd))
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
     )
   )
   (placement
-    (component "Symbols:OSHW-Logo2_7.3x6mm_SilkScreen"
-      (place LOGO1 129040 -92811.6 back 90 (PN "OSHW-LOGOM"))
+    (component "Symbols:OSHW-Logo2_7.3x6mm_Copper"
+      (place LOGO1 142000 -97500 back 90 (PN "OSHW-LOGOM"))
+    )
+    (component "ATM90E26_Featherwing:PAD-JUMPER-2-NO_YES_SILK"
+      (place SCKMUX1 155252 -120344 back 270 (PN "JUMPER-PAD-2-NOYES_SILK"))
+    )
+    (component "ATM90E26_Featherwing:PAD-JUMPER-3-NO_YES_SILK"
+      (place RXMUX1 157792 -119850 back 270 (PN "JUMPER-PAD-3-NOYES_SILK"))
+    )
+    (component "ATM90E26_Featherwing:PAD-JUMPER-3-NO_YES_SILK::1"
+      (place TXMUX1 160091 -119850 back 270 (PN "JUMPER-PAD-3-NOYES_SILK"))
+      (place CSMUX1 156472 -106000 back 0 (PN "JUMPER-PAD-3-NOYES_SILK"))
     )
     (component ATM90E26_Featherwing:0805
       (place R12 127516 -100305 front 0 (PN 12R))
@@ -103,16 +117,6 @@
     (component "ATM90E26_Featherwing:LED-0603"
       (place PWR1 152408 -100559 front 0 (PN GREEN))
     )
-    (component "ATM90E26_Featherwing:PAD-JUMPER-2-NO_YES_SILK"
-      (place SCKMUX 155252 -120344 back 270 (PN "JUMPER-PAD-2-NOYES_SILK"))
-    )
-    (component "ATM90E26_Featherwing:PAD-JUMPER-3-NO_YES_SILK"
-      (place CSMUX1 156472 -106000 back 0 (PN "JUMPER-PAD-3-NOYES_SILK"))
-      (place TXMUX 160091 -119850 back 270 (PN "JUMPER-PAD-3-NOYES_SILK"))
-    )
-    (component "ATM90E26_Featherwing:PAD-JUMPER-3-NO_YES_SILK::1"
-      (place RXMUX 157792 -119850 back 270 (PN "JUMPER-PAD-3-NOYES_SILK"))
-    )
     (component "ATM90E26_Featherwing:PAD-JUMPER-3-NO_YES_SILK_FULL_BOX"
       (place MMD1 146693 -107925 back 270 (PN "JUMPER-PAD-3-NOFULL_BOX_SILK"))
       (place USEL1 148000 -114000 back 270 (PN "JUMPER-PAD-3-NOFULL_BOX_SILK"))
@@ -162,7 +166,31 @@
     )
   )
   (library
-    (image "Symbols:OSHW-Logo2_7.3x6mm_SilkScreen"
+    (image "Symbols:OSHW-Logo2_7.3x6mm_Copper"
+    )
+    (image "ATM90E26_Featherwing:PAD-JUMPER-2-NO_YES_SILK"
+      (outline (path signal 203.2  800 -1000  -800 -1000))
+      (outline (path signal 203.2  -800 1000  800 1000))
+      (pin Rect[T]Pad_635x1270_um 1 -450 0)
+      (pin Rect[T]Pad_635x1270_um 2 450 0)
+    )
+    (image "ATM90E26_Featherwing:PAD-JUMPER-3-NO_YES_SILK"
+      (outline (path signal 152.4  -1270 1016  1270 1016))
+      (outline (path signal 152.4  -1524 -762  -1524 762))
+      (outline (path signal 152.4  1524 -762  1524 762))
+      (outline (path signal 152.4  1270 -1016  -1270 -1016))
+      (pin Rect[T]Pad_635x1270_um 3 812.8 0)
+      (pin Rect[T]Pad_635x1270_um 2 0 0)
+      (pin Rect[T]Pad_635x1270_um 1 -812.8 0)
+    )
+    (image "ATM90E26_Featherwing:PAD-JUMPER-3-NO_YES_SILK::1"
+      (outline (path signal 152.4  1270 -1016  -1270 -1016))
+      (outline (path signal 152.4  1524 -762  1524 762))
+      (outline (path signal 152.4  -1524 -762  -1524 762))
+      (outline (path signal 152.4  -1270 1016  1270 1016))
+      (pin Rect[T]Pad_635x1270_um 1 -812.8 0)
+      (pin Rect[T]Pad_635x1270_um 2 0 0)
+      (pin Rect[T]Pad_635x1270_um 3 812.8 0)
     )
     (image ATM90E26_Featherwing:0805
       (outline (path signal 50.8  -1873 883  1873 883))
@@ -461,30 +489,6 @@
       (pin Rect[T]Pad_762x889_um + -762 0)
       (pin Rect[T]Pad_762x889_um - 762 0)
     )
-    (image "ATM90E26_Featherwing:PAD-JUMPER-2-NO_YES_SILK"
-      (outline (path signal 203.2  800 -1000  -800 -1000))
-      (outline (path signal 203.2  -800 1000  800 1000))
-      (pin Rect[T]Pad_635x1270_um 1 -450 0)
-      (pin Rect[T]Pad_635x1270_um 2 450 0)
-    )
-    (image "ATM90E26_Featherwing:PAD-JUMPER-3-NO_YES_SILK"
-      (outline (path signal 152.4  1270 -1016  -1270 -1016))
-      (outline (path signal 152.4  1524 -762  1524 762))
-      (outline (path signal 152.4  -1524 -762  -1524 762))
-      (outline (path signal 152.4  -1270 1016  1270 1016))
-      (pin Rect[T]Pad_635x1270_um 1 -812.8 0)
-      (pin Rect[T]Pad_635x1270_um 2 0 0)
-      (pin Rect[T]Pad_635x1270_um 3 812.8 0)
-    )
-    (image "ATM90E26_Featherwing:PAD-JUMPER-3-NO_YES_SILK::1"
-      (outline (path signal 152.4  -1270 1016  1270 1016))
-      (outline (path signal 152.4  -1524 -762  -1524 762))
-      (outline (path signal 152.4  1524 -762  1524 762))
-      (outline (path signal 152.4  1270 -1016  -1270 -1016))
-      (pin Rect[T]Pad_635x1270_um 3 812.8 0)
-      (pin Rect[T]Pad_635x1270_um 2 0 0)
-      (pin Rect[T]Pad_635x1270_um 1 -812.8 0)
-    )
     (image "ATM90E26_Featherwing:PAD-JUMPER-3-NO_YES_SILK_FULL_BOX"
       (outline (path signal 152.4  2159 -1016  -2159 -1016))
       (outline (path signal 152.4  2413 -762  2413 762))
@@ -777,12 +781,6 @@
     (net /I2P
       (pins C13-1 R9-1 U1-7)
     )
-    (net "Net-(C14-Pad+)"
-      (pins C14-+ C16-2 D1-C U2-3)
-    )
-    (net "Net-(C15-Pad+)"
-      (pins C15-+ C17-2 D2-+ U2-2 U2-TER)
-    )
     (net "Net-(CF1-Pad1)"
       (pins CF1-1 U1-18)
     )
@@ -797,9 +795,6 @@
     )
     (net /CS_9
       (pins MS1-21 CSMUX1-1)
-    )
-    (net "Net-(D1-PadA)"
-      (pins J4-P1@2 R10-1 D1-A)
     )
     (net /USB
       (pins MS1-26 R13-1 D2--)
@@ -829,10 +824,10 @@
       (pins J1-LS)
     )
     (net /SI/RX
-      (pins J2-2 RXMUX-2 SI/RX1-1 U1-27)
+      (pins RXMUX1-2 J2-2 SI/RX1-1 U1-27)
     )
     (net /SO/TX
-      (pins J2-1 TXMUX-2 SO/TX1-1 U1-26)
+      (pins TXMUX1-2 J2-1 SO/TX1-1 U1-26)
     )
     (net /SDA
       (pins MS1-17 J3-2)
@@ -865,13 +860,13 @@
       (pins MS1-14)
     )
     (net /MISO
-      (pins MS1-13 TXMUX-1)
+      (pins TXMUX1-1 MS1-13)
     )
     (net /MOSI
-      (pins MS1-12 RXMUX-1)
+      (pins RXMUX1-1 MS1-12)
     )
     (net /SCK
-      (pins MS1-11 SCKMUX-1)
+      (pins SCKMUX1-1 MS1-11)
     )
     (net "Net-(MS1-Pad10)"
       (pins MS1-10)
@@ -898,13 +893,13 @@
       (pins MS1-20)
     )
     (net /ATM_TX
-      (pins MS1-23 TXMUX-3)
+      (pins TXMUX1-3 MS1-23)
     )
     (net "Net-(MS1-Pad24)"
       (pins MS1-24)
     )
     (net /ATM_RX
-      (pins MS1-25 RXMUX-3)
+      (pins RXMUX1-3 MS1-25)
     )
     (net "Net-(MS1-Pad27)"
       (pins MS1-27)
@@ -922,7 +917,7 @@
       (pins R12-1)
     )
     (net /SCLK
-      (pins SCKMUX-2 SCLK1-1 U1-25)
+      (pins SCKMUX1-2 SCLK1-1 U1-25)
     )
     (net "Net-(U1-Pad12)"
       (pins USEL1-2 U1-12)
@@ -945,29 +940,53 @@
     (net "Net-(PWR1-Pad+)"
       (pins PWR1-+ R13-2)
     )
-    (class kicad_default "" +3V3 /ATM_RX /ATM_TX /CLKIN /CLKOUT /CS /CS_10
-      /CS_9 /I1N /I1N_IN /I1P /I1P_IN /I2N /I2N_IN /I2P /I2P_IN /MISO /MOSI
-      /SCK /SCL /SCLK /SDA /SI/RX /SO/TX /USB /VN /VP GND I1P_IN N$1 N$2 "Net-(C1-Pad+)"
-      "Net-(C1-Pad-)" "Net-(C14-Pad+)" "Net-(C15-Pad+)" "Net-(C2-Pad2)" "Net-(C6-Pad2)"
-      "Net-(C8-Pad+)" "Net-(C9-Pad1)" "Net-(CF1-Pad1)" "Net-(CF2-Pad1)" "Net-(D1-PadA)"
-      "Net-(INT-Pad1)" "Net-(INT1-Pad1)" "Net-(J1-PadCOM2)" "Net-(J1-PadLS)"
-      "Net-(J1-PadR)" "Net-(J1-PadRS)" "Net-(J4-PadP3)" "Net-(MMD0-Pad2)"
-      "Net-(MMD1-Pad2)" "Net-(MS1-Pad1)" "Net-(MS1-Pad10)" "Net-(MS1-Pad14)"
-      "Net-(MS1-Pad15)" "Net-(MS1-Pad16)" "Net-(MS1-Pad19)" "Net-(MS1-Pad20)"
-      "Net-(MS1-Pad24)" "Net-(MS1-Pad27)" "Net-(MS1-Pad28)" "Net-(MS1-Pad3)"
-      "Net-(MS1-Pad5)" "Net-(MS1-Pad6)" "Net-(MS1-Pad7)" "Net-(MS1-Pad8)"
-      "Net-(MS1-Pad9)" "Net-(PWR-Pad+)" "Net-(PWR1-Pad+)" "Net-(R11-Pad2)"
-      "Net-(R12-Pad1)" "Net-(R7-Pad1)" "Net-(U1-Pad1)" "Net-(U1-Pad12)" "Net-(U1-Pad17)"
-      "Net-(U1-Pad21)" "Net-(U1-Pad28)" VREF V_OUT
+    (net /5V_REG
+      (pins C15-+ C17-2 D2-+ U2-2 U2-TER)
+    )
+    (net /AC_REC
+      (pins C14-+ C16-2 D1-C U2-3)
+    )
+    (net /AC_VP
+      (pins J4-P1@2 R10-1 D1-A)
+    )
+    (class kicad_default "" /ATM_RX /ATM_TX /CLKIN /CLKOUT /CS /CS_10 /CS_9
+      /I1N /I1N_IN /I1P /I1P_IN /I2N /I2N_IN /I2P /I2P_IN /MISO /MOSI /SCK
+      /SCL /SCLK /SDA /SI/RX /SO/TX /VN /VP "Net-(C1-Pad+)" "Net-(C1-Pad-)"
+      "Net-(C14-Pad+)" "Net-(C15-Pad+)" "Net-(C2-Pad2)" "Net-(C6-Pad2)" "Net-(C8-Pad+)"
+      "Net-(C9-Pad1)" "Net-(CF1-Pad1)" "Net-(CF2-Pad1)" "Net-(D1-PadA)" "Net-(INT1-Pad1)"
+      "Net-(J1-PadCOM2)" "Net-(J1-PadLS)" "Net-(J1-PadR)" "Net-(J1-PadRS)"
+      "Net-(J4-PadP3)" "Net-(MMD0-Pad2)" "Net-(MMD1-Pad2)" "Net-(MS1-Pad1)"
+      "Net-(MS1-Pad10)" "Net-(MS1-Pad14)" "Net-(MS1-Pad15)" "Net-(MS1-Pad16)"
+      "Net-(MS1-Pad19)" "Net-(MS1-Pad20)" "Net-(MS1-Pad24)" "Net-(MS1-Pad27)"
+      "Net-(MS1-Pad28)" "Net-(MS1-Pad3)" "Net-(MS1-Pad5)" "Net-(MS1-Pad6)"
+      "Net-(MS1-Pad7)" "Net-(MS1-Pad8)" "Net-(MS1-Pad9)" "Net-(PWR1-Pad+)"
+      "Net-(R11-Pad2)" "Net-(R12-Pad1)" "Net-(R7-Pad1)" "Net-(U1-Pad1)" "Net-(U1-Pad12)"
+      "Net-(U1-Pad17)" "Net-(U1-Pad21)" "Net-(U1-Pad28)"
       (circuit
         (use_via Via[0-1]_800:400_um)
       )
       (rule
         (width 250)
-        (clearance 152.5)
+        (clearance 200.1)
+      )
+    )
+    (class Power +3V3 /5V_REG /AC_REC /AC_VP /USB GND
+      (circuit
+        (use_via Via[0-1]_800:400_um)
+      )
+      (rule
+        (width 400)
+        (clearance 300.1)
       )
     )
   )
   (wiring
+    (via "Via[0-1]_800:400_um"  141500 -97500 (net "Net-(C15-Pad+)")(type protect))
+    (via "Via[0-1]_800:400_um"  138000 -95000 (net /5V_REG)(type protect))
+    (via "Via[0-1]_800:400_um"  139500 -95000 (net /5V_REG)(type protect))
+    (via "Via[0-1]_800:400_um"  141500 -95000 (net /5V_REG)(type protect))
+    (via "Via[0-1]_800:400_um"  141500 -100000 (net /5V_REG)(type protect))
+    (via "Via[0-1]_800:400_um"  139500 -100000 (net /5V_REG)(type protect))
+    (via "Via[0-1]_800:400_um"  138000 -100000 (net /5V_REG)(type protect))
   )
 )
