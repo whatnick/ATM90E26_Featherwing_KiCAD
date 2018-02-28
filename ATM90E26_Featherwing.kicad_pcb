@@ -666,6 +666,11 @@
       (net 71 /AC_REC))
     (pad TER smd rect (at 0 -3.175 90) (size 3.556 2.159) (layers Top F.Paste F.Mask)
       (net 70 /5V_REG))
+    (model ${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/SOT-223.step
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 -90))
+    )
   )
 
   (module ATM90E26_Featherwing:SMD1,27-2,54 (layer Bottom) (tedit 5A940F6D) (tstamp 5A94551F)
@@ -1254,6 +1259,11 @@
       (net 1 GND))
     (pad SS2 smd rect (at 5.4 -7.4) (size 3 1.5) (layers Top F.Paste F.Mask)
       (net 1 GND))
+    (model "${KIPRJMOD}/3dmodels/Grove Connecteur.step"
+      (offset (xyz 0 10 0))
+      (scale (xyz 400 400 400))
+      (rotate (xyz 90 90 0))
+    )
   )
 
   (module ATM90E26_Featherwing:HW4-SMD-2.0-90D (layer Top) (tedit 0) (tstamp 5A945677)
@@ -1613,6 +1623,11 @@
       (net 70 /5V_REG))
     (pad - smd rect (at -2.7 0 180) (size 3.5 1.6) (layers Top F.Paste F.Mask)
       (net 1 GND))
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/CP_Elec_6.3x4.5.step
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module ATM90E26_Featherwing:140CLH-1010 (layer Top) (tedit 5A94125B) (tstamp 5A9457E5)
@@ -1643,6 +1658,11 @@
       (net 71 /AC_REC))
     (pad - smd rect (at -4.15 0 270) (size 4.3 2.5) (layers Top F.Paste F.Mask)
       (net 1 GND))
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/CP_Elec_8x10.5.step
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module ATM90E26_Featherwing:0805 (layer Top) (tedit 0) (tstamp 5A9457F8)
