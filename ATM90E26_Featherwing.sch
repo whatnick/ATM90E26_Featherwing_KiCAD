@@ -1415,7 +1415,7 @@ Connection ~ 4950 6100
 Connection ~ 4050 6100
 Connection ~ 2650 7000
 Wire Wire Line
-	2650 7000 3700 7000
+	2650 7000 2820 7000
 Connection ~ 7100 1850
 Wire Wire Line
 	7100 1850 7100 1900
@@ -1457,4 +1457,7 @@ NoConn ~ 2750 4700
 NoConn ~ 10000 3000
 Wire Wire Line
 	9400 3000 9400 3340
+Connection ~ 2820 7000
+Wire Wire Line
+	2820 7000 3700 7000
 $EndSCHEMATC
