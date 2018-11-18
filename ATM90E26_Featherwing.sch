@@ -305,8 +305,6 @@ Wire Wire Line
 	3800 1200 3800 1300
 Text Label 9400 3300 2    70   ~ 0
 +3V3
-Wire Wire Line
-	9400 3000 9400 3340
 Text Label 9610 4550 0    24   ~ 0
 +3V3
 Wire Wire Line
@@ -1429,15 +1427,34 @@ Connection ~ 3250 4860
 Connection ~ 3250 5260
 Wire Wire Line
 	3250 5260 3580 5260
-Connection ~ 2200 1800
-Connection ~ 2600 3100
 Connection ~ 3650 1200
 Wire Wire Line
 	3650 1200 3800 1200
-Connection ~ 3900 1400
-Connection ~ 3400 1400
 Connection ~ 3500 1200
 Connection ~ 3800 1200
 Connection ~ 3800 1600
 Connection ~ 3500 1600
+NoConn ~ 10800 3000
+NoConn ~ 10700 3000
+NoConn ~ 10600 3000
+NoConn ~ 10200 3000
+NoConn ~ 10100 3000
+NoConn ~ 9900 3000
+NoConn ~ 9800 3000
+NoConn ~ 9700 3000
+NoConn ~ 9500 3000
+NoConn ~ 9300 3000
+NoConn ~ 2650 5500
+NoConn ~ 2150 5500
+NoConn ~ 1850 4700
+NoConn ~ 2000 6500
+NoConn ~ 10600 1300
+NoConn ~ 10500 1300
+NoConn ~ 10100 1300
+NoConn ~ 9800 1300
+NoConn ~ 9700 1300
+NoConn ~ 2750 4700
+NoConn ~ 10000 3000
+Wire Wire Line
+	9400 3000 9400 3340
 $EndSCHEMATC
