@@ -305,8 +305,6 @@ Wire Wire Line
 	3800 1200 3800 1300
 Text Label 9400 3300 2    70   ~ 0
 +3V3
-Wire Wire Line
-	9400 3000 9400 3340
 Text Label 9610 4550 0    24   ~ 0
 +3V3
 Wire Wire Line
@@ -373,22 +371,10 @@ Wire Wire Line
 	7150 3400 7000 3400
 Text Label 3580 5260 2    70   ~ 0
 I1P_IN
-Wire Wire Line
-	1950 5500 1950 5650
-Wire Wire Line
-	1950 5650 3090 5650
-Wire Wire Line
-	3090 5650 3090 5260
 Text Label 6970 2600 0    70   ~ 0
 I1N_IN
 Wire Wire Line
 	7150 2600 6970 2600
-Wire Wire Line
-	2550 4700 2550 4520
-Wire Wire Line
-	2550 4520 3250 4520
-Wire Wire Line
-	3250 4860 3580 4860
 Connection ~ 7100 1300
 Text Label 6700 1300 0    70   ~ 0
 I2P_IN
@@ -1127,17 +1113,6 @@ F 3 "" H 5660 6700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L ATM90E26_Featherwing-eagle-import:AUDIO-JACK-6P-SMD(ST-PJ-312) J1
-U 1 0 80165544
-P 2300 5100
-F 0 "J1" H 2050 5350 42  0000 L BNN
-F 1 "ST-PJ-312" H 2200 4800 42  0000 L BNN
-F 2 "ATM90E26_Featherwing:AUDIO6P-SMD-3.5-14.0X6.4X5.0MM" H 2300 5100 50  0001 C CNN
-F 3 "" H 2300 5100 50  0001 C CNN
-	1    2300 5100
-	-1   0    0    1   
-$EndComp
-$Comp
 L ATM90E26_Featherwing-eagle-import:RESISTOR0805 R12
 U 1 0 749259AA
 P 3250 5060
@@ -1360,8 +1335,6 @@ Wire Wire Line
 Wire Wire Line
 	3500 1200 3650 1200
 Wire Wire Line
-	3090 5260 3250 5260
-Wire Wire Line
 	3700 6100 4050 6100
 Wire Wire Line
 	1580 2100 1700 2100
@@ -1417,21 +1390,64 @@ Connection ~ 4950 6100
 Connection ~ 4050 6100
 Connection ~ 2650 7000
 Wire Wire Line
-	2650 7000 3700 7000
+	2650 7000 2820 7000
 Connection ~ 7100 1850
 Wire Wire Line
 	7100 1850 7100 1900
 Text Label 3415 4860 2    70   ~ 0
 I1N_IN
-Wire Wire Line
-	3250 4520 3250 4860
-Connection ~ 3250 4860
 Connection ~ 3250 5260
 Wire Wire Line
 	3250 5260 3580 5260
-Connection ~ 2200 1800
-Connection ~ 2600 3100
 Connection ~ 3650 1200
 Wire Wire Line
 	3650 1200 3800 1200
+Connection ~ 3500 1200
+Connection ~ 3800 1200
+Connection ~ 3800 1600
+Connection ~ 3500 1600
+NoConn ~ 10800 3000
+NoConn ~ 10700 3000
+NoConn ~ 10600 3000
+NoConn ~ 10200 3000
+NoConn ~ 10100 3000
+NoConn ~ 9900 3000
+NoConn ~ 9800 3000
+NoConn ~ 9700 3000
+NoConn ~ 9500 3000
+NoConn ~ 9300 3000
+NoConn ~ 2000 6500
+NoConn ~ 10600 1300
+NoConn ~ 10500 1300
+NoConn ~ 10100 1300
+NoConn ~ 9800 1300
+NoConn ~ 9700 1300
+NoConn ~ 10000 3000
+Wire Wire Line
+	9400 3000 9400 3340
+Connection ~ 2820 7000
+Wire Wire Line
+	2820 7000 3700 7000
+$Comp
+L Connector:AudioJack3 J?
+U 1 1 5D0721CB
+P 2700 5055
+F 0 "J?" H 2680 5380 50  0000 C CNN
+F 1 "AudioJack3" H 2680 5289 50  0000 C CNN
+F 2 "" H 2700 5055 50  0001 C CNN
+F 3 "~" H 2700 5055 50  0001 C CNN
+	1    2700 5055
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 4860 2900 4955
+Wire Wire Line
+	2900 4860 3250 4860
+Connection ~ 3250 4860
+Wire Wire Line
+	3250 4860 3580 4860
+Wire Wire Line
+	2900 5155 2900 5260
+Wire Wire Line
+	2900 5260 3250 5260
 $EndSCHEMATC
