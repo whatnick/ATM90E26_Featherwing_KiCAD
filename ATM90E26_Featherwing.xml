@@ -1,0 +1,1022 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\Tisham\Documents\kicad\ATM90E26_Featherwing\ATM90E26_Featherwing.sch</source>
+    <date>14/08/2019 9:51:42 AM</date>
+    <tool>Eeschema (2018-02-15 revision 29b28de31)-makepkg</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>ATM90E26_Featherwing.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="LOGO1">
+      <value>OSHW-LOGOM</value>
+      <footprint>Symbols:OSHW-Logo2_7.3x6mm_Copper</footprint>
+      <libsource lib="ATM90E26_Featherwing-eagle-import" part="OSHW-LOGOM"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>994F8438</tstamp>
+    </comp>
+    <comp ref="CF1">
+      <value>WIREPADSMD1,27-254</value>
+      <footprint>ATM90E26_Featherwing:SMD1,27-2,54</footprint>
+      <libsource lib="ATM90E26_Featherwing-eagle-import" part="WIREPADSMD1,27-254"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>92C0C2C7</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>ATM90E26</value>
+      <footprint>ATM90E26_Featherwing:SSOP-28</footprint>
+      <libsource lib="ATM90E26_Featherwing-eagle-import" part="ATM90E26"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>94FABF20</tstamp>
+    </comp>
+    <comp ref="CF2">
+      <value>WIREPADSMD1,27-254</value>
+      <footprint>ATM90E26_Featherwing:SMD1,27-2,54</footprint>
+      <libsource lib="ATM90E26_Featherwing-eagle-import" part="WIREPADSMD1,27-254"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>AF346ECE</tstamp>
+    </comp>
+    <comp ref="WARN1">
+      <value>WIREPADSMD1,27-254</value>
+      <footprint>ATM90E26_Featherwing:SMD1,27-2,54</footprint>
+      <libsource lib="ATM90E26_Featherwing-eagle-import" part="WIREPADSMD1,27-254"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>9AAB8EE5</tstamp>
+    </comp>
+    <comp ref="INT1">
+      <value>WIREPADSMD1,27-254</value>
+      <footprint>ATM90E26_Featherwing:SMD1,27-2,54</footprint>
+      <libsource lib="ATM90E26_Featherwing-eagle-import" part="WIREPADSMD1,27-254"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>9533A0C3</tstamp>
+    </comp>
+    <comp ref="ZX1">
+      <value>WIREPADSMD1,27-254</value>
+      <footprint>ATM90E26_Featherwing:SMD1,27-2,54</footprint>
+      <libsource lib="ATM90E26_Featherwing-eagle-import" part="WIREPADSMD1,27-254"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>40767F2A</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>10uf</value>
+      <footprint>ATM90E26_Featherwing:AVX-A</footprint>
+      <libsource lib="ATM90E26_Featherwing-eagle-import" part="TANTALUM-SMD-22UF-10V(AVX-A)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>13B372FD</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10uf</value>
+      <footprint>ATM90E26_Featherwing:AVX-A</footprint>
+      <libsource lib="ATM90E26_Featherwing-eagle-import" part="TANTALUM-SMD-22UF-10V(AVX-A)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>180D41D9</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>ATM90E26_Featherwing:C0603</footprint>
+      <libsource lib="ATM90E26_Featherwing-eagle-import" part="C-0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>AEC71D01</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>100n</value>
+      <footprint>ATM90E26_Featherwing:C0603</footprint>
+      <libsource lib="ATM90E26_Featherwing-eagle-import" part="C-0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>93F3FA2A</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100n</value>
+      <footprint>ATM90E26_Featherwing:C0603</footprint>
+      <libsource lib="ATM90E26_Featherwing-eagle-import" part="C-0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>E24BCDB6</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>8.192MHz</value>
+      <footprint>ATM90E26_Featherwing:HC49UP</footprint>
+      <libsource lib="ATM90E26_Featherwing-eagle-import" part="CRYSTALHC49UP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56A7AB31</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>27p</value>
+      <footprint>ATM90E26_Featherwing:C0603</footprint>
+      <libsource lib="ATM90E26_Featherwing-eagle-import" part="C-0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>33864A69</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>27p</value>
+      <footprint>ATM90E26_Featherwing:C0603</footprint>
+      <libsource lib="ATM90E26_Featherwing-eagle-import" part="C-0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>265FE1EF</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>1K</value>
+      <footprint>ATM90E26_Featherwing:R0603</footprint>
+      <libsource lib="ATM90E26_Featherwing-eagle-import" part="SMD-RES-1K(0603)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>FA6D7899</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>1K</value>
+      <footprint>ATM90E26_Featherwing:R0603</footprint>
+      <libsource lib="ATM90E26_Featherwing-eagle-import" part="SMD-RES-1K(0603)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>DF39756A</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>33n</value>
+      <footprint>ATM90E26_Featherwing:C0603</footprint>
+      <libsource lib="ATM90E26_Featherwing-eagle-import" part="C-0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>3383F2DA</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>33n</value>
+      <footprint>ATM90E26_Featherwing:C0603</footprint>
+      <libsource lib="ATM90E26_Featherwing-eagle-import" part="C-0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>1B857C3C</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>33n</value>
+      <footprint>ATM90E26_Featherwing:C0603</footprint>
+      <libsource lib="ATM90E26_Featherwing-eagle-import" part="C-0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59D59327</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>1K</value>
+      <footprint>ATM90E26_Featherwing:R0603</footprint>
+      <libsource lib="ATM90E26_Featherwing-eagle-import" part="SMD-RES-1K(0603)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>566DAAD1</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>1K</value>
+      <footprint>ATM90E26_Featherwing:R0603</footprint>
+      <libsource lib="ATM90E26_Featherwing-eagle-import" part="SMD-RES-1K(0603)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64D54441</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>33n</value>
+      <footprint>ATM90E26_Featherwing:C0603</footprint>
+      <libsource lib="ATM90E26_Featherwing-eagle-import" part="C-0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E9E3D95</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>2.4R</value>
+      <footprint>ATM90E26_Featherwing:R0603</footprint>
+      <libsource lib="ATM90E26_Featherwing-eagle-import" part="SMD-RES-1K(0603)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>A94CCE6E</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>2.4R</value>
+      <footprint>ATM90E26_Featherwing:R0603</footprint>
+      <libsource lib="ATM90E26_Featherwing-eagle-import" part="SMD-RES-1K(0603)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>74010D37</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>100R</value>
+      <footprint>ATM90E26_Featherwing:R0603</footprint>
+      <libsource lib="ATM90E26_Featherwing-eagle-import" part="SMD-RES-1K(0603)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>E2EBFC47</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>100R</value>
+      <footprint>ATM90E26_Featherwing:R0603</footprint>
+      <libsource lib="ATM90E26_Featherwing-eagle-import" part="SMD-RES-1K(0603)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>7C684F18</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>330n</value>
+      <footprint>ATM90E26_Featherwing:C0603</footprint>
+      <libsource lib="ATM90E26_Featherwing-eagle-import" part="C-0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>067997B4</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>330n</value>
+      <footprint>ATM90E26_Featherwing:C0603</footprint>
+      <libsource lib="ATM90E26_Featherwing-eagle-import" part="C-0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4F43C7AF</tstamp>
+    </comp>
+    <comp ref="I2P_IN1">
+      <value>WIREPADSMD1,27-254</value>
+      <footprint>ATM90E26_Featherwing:SMD1,27-2,54</footprint>
+      <libsource lib="ATM90E26_Featherwing-eagle-import" part="WIREPADSMD1,27-254"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>705A590A</tstamp>
+    </comp>
+    <comp ref="I2N_IN1">
+      <value>WIREPADSMD1,27-254</value>
+      <footprint>ATM90E26_Featherwing:SMD1,27-2,54</footprint>
+      <libsource lib="ATM90E26_Featherwing-eagle-import" part="WIREPADSMD1,27-254"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>2CE42E54</tstamp>
+    </comp>
+    <comp ref="MS1">
+      <value>FEATHERWING_NODIM</value>
+      <footprint>ATM90E26_Featherwing:FEATHERWING_DIM</footprint>
+      <libsource lib="ATM90E26_Featherwing-eagle-import" part="FEATHERWING_NODIM"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>D29686E8</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>12V AC</value>
+      <footprint>ATM90E26_Featherwing:DC_BARREL_JACK_SMD_2MM</footprint>
+      <libsource lib="ATM90E26_Featherwing-eagle-import" part="CON_DC_M-DC_SMD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>14030541</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>100K</value>
+      <footprint>ATM90E26_Featherwing:R0603</footprint>
+      <libsource lib="ATM90E26_Featherwing-eagle-import" part="SMD-RES-0R(0603)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>35223906</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>INF</value>
+      <footprint>ATM90E26_Featherwing:R0603</footprint>
+      <libsource lib="ATM90E26_Featherwing-eagle-import" part="SMD-RES-0R(0603)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>1F0665CF</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>MBRA140</value>
+      <footprint>ATM90E26_Featherwing:SMA-DIODE</footprint>
+      <libsource lib="ATM90E26_Featherwing-eagle-import" part="MBRA140"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>C78C3FBD</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>CJT1117-5.0-SOT223</value>
+      <footprint>ATM90E26_Featherwing:SOT-223</footprint>
+      <libsource lib="ATM90E26_Featherwing-eagle-import" part="PMIC-CJT1117-5.0(SOT223)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>174248B1</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>220uF</value>
+      <footprint>ATM90E26_Featherwing:140CLH-1010</footprint>
+      <libsource lib="ATM90E26_Featherwing-eagle-import" part="CPOL-US140CLH-1010"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6493887B</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>100uF</value>
+      <footprint>ATM90E26_Featherwing:153CLV-0605</footprint>
+      <libsource lib="ATM90E26_Featherwing-eagle-import" part="CPOL-US153CLV-0605"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>78B66A39</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>4P-SMD-2.0-90D</value>
+      <footprint>ATM90E26_Featherwing:HW4-SMD-2.0-90D</footprint>
+      <libsource lib="ATM90E26_Featherwing-eagle-import" part="GROVE-CONNECTOR-SMD-90D(4+2P-2.0)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>E61DAECA</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>20V-1A</value>
+      <footprint>ATM90E26_Featherwing:SOD-123</footprint>
+      <libsource lib="ATM90E26_Featherwing-eagle-import" part="SMD-DIODE-SCHOTTKY-20V-1A(SOD-123)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>2ACCFBF6</tstamp>
+    </comp>
+    <comp ref="PWR1">
+      <value>GREEN</value>
+      <footprint>ATM90E26_Featherwing:LED-0603</footprint>
+      <libsource lib="ATM90E26_Featherwing-eagle-import" part="LED'0603'"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>CB64C2E2</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>12R</value>
+      <footprint>ATM90E26_Featherwing:0805</footprint>
+      <libsource lib="ATM90E26_Featherwing-eagle-import" part="RESISTOR0805"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>749259AA</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>1K</value>
+      <footprint>ATM90E26_Featherwing:R0603</footprint>
+      <libsource lib="ATM90E26_Featherwing-eagle-import" part="SMD-RES-0R(0603)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>221781BE</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>4P-SMD-2.0-90D</value>
+      <footprint>ATM90E26_Featherwing:HW4-SMD-2.0-90D</footprint>
+      <libsource lib="ATM90E26_Featherwing-eagle-import" part="GROVE-CONNECTOR-SMD-90D(4+2P-2.0)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>939F3055</tstamp>
+    </comp>
+    <comp ref="SI/RX1">
+      <value>WIREPADSMD1,27-254</value>
+      <footprint>ATM90E26_Featherwing:SMD1,27-2,54</footprint>
+      <libsource lib="ATM90E26_Featherwing-eagle-import" part="WIREPADSMD1,27-254"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>3D52DAB6</tstamp>
+    </comp>
+    <comp ref="SO/TX1">
+      <value>WIREPADSMD1,27-254</value>
+      <footprint>ATM90E26_Featherwing:SMD1,27-2,54</footprint>
+      <libsource lib="ATM90E26_Featherwing-eagle-import" part="WIREPADSMD1,27-254"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>094E2C9E</tstamp>
+    </comp>
+    <comp ref="SCLK1">
+      <value>WIREPADSMD1,27-254</value>
+      <footprint>ATM90E26_Featherwing:SMD1,27-2,54</footprint>
+      <libsource lib="ATM90E26_Featherwing-eagle-import" part="WIREPADSMD1,27-254"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65C29A1F</tstamp>
+    </comp>
+    <comp ref="CS1">
+      <value>WIREPADSMD1,27-254</value>
+      <footprint>ATM90E26_Featherwing:SMD1,27-2,54</footprint>
+      <libsource lib="ATM90E26_Featherwing-eagle-import" part="WIREPADSMD1,27-254"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>9B40E863</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>100n</value>
+      <footprint>ATM90E26_Featherwing:C0603</footprint>
+      <libsource lib="ATM90E26_Featherwing-eagle-import" part="C-0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>3BF359D1</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>100n</value>
+      <footprint>ATM90E26_Featherwing:C0603</footprint>
+      <libsource lib="ATM90E26_Featherwing-eagle-import" part="C-0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>20F00162</tstamp>
+    </comp>
+    <comp ref="MMD0">
+      <value>JUMPER-PAD-3-NOFULL_BOX_SILK</value>
+      <footprint>ATM90E26_Featherwing:PAD-JUMPER-3-NO_YES_SILK_FULL_BOX</footprint>
+      <libsource lib="ATM90E26_Featherwing-eagle-import" part="JUMPER-PAD-3-NOFULL_BOX_SILK"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>27B7BCB4</tstamp>
+    </comp>
+    <comp ref="MMD1">
+      <value>JUMPER-PAD-3-NOFULL_BOX_SILK</value>
+      <footprint>ATM90E26_Featherwing:PAD-JUMPER-3-NO_YES_SILK_FULL_BOX</footprint>
+      <libsource lib="ATM90E26_Featherwing-eagle-import" part="JUMPER-PAD-3-NOFULL_BOX_SILK"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>A257DCDB</tstamp>
+    </comp>
+    <comp ref="USEL1">
+      <value>JUMPER-PAD-3-NOFULL_BOX_SILK</value>
+      <footprint>ATM90E26_Featherwing:PAD-JUMPER-3-NO_YES_SILK_FULL_BOX</footprint>
+      <libsource lib="ATM90E26_Featherwing-eagle-import" part="JUMPER-PAD-3-NOFULL_BOX_SILK"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>84BB06D0</tstamp>
+    </comp>
+    <comp ref="RXMUX1">
+      <value>JUMPER-PAD-3-NOYES_SILK</value>
+      <footprint>ATM90E26_Featherwing:PAD-JUMPER-3-NO_YES_SILK</footprint>
+      <libsource lib="ATM90E26_Featherwing-eagle-import" part="JUMPER-PAD-3-NOYES_SILK"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>421A43AB</tstamp>
+    </comp>
+    <comp ref="TXMUX1">
+      <value>JUMPER-PAD-3-NOYES_SILK</value>
+      <footprint>ATM90E26_Featherwing:PAD-JUMPER-3-NO_YES_SILK</footprint>
+      <libsource lib="ATM90E26_Featherwing-eagle-import" part="JUMPER-PAD-3-NOYES_SILK"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>216188BC</tstamp>
+    </comp>
+    <comp ref="CSMUX1">
+      <value>JUMPER-PAD-3-NOYES_SILK</value>
+      <footprint>ATM90E26_Featherwing:PAD-JUMPER-3-NO_YES_SILK</footprint>
+      <libsource lib="ATM90E26_Featherwing-eagle-import" part="JUMPER-PAD-3-NOYES_SILK"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>B643949B</tstamp>
+    </comp>
+    <comp ref="SCKMUX1">
+      <value>JUMPER-PAD-2-NOYES_SILK</value>
+      <footprint>ATM90E26_Featherwing:PAD-JUMPER-2-NO_YES_SILK</footprint>
+      <libsource lib="ATM90E26_Featherwing-eagle-import" part="JUMPER-PAD-2-NOYES_SILK"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>96573A6B</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>AudioJack3</value>
+      <footprint>Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal</footprint>
+      <libsource lib="Connector" part="AudioJack3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D0721CB</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="ATM90E26_Featherwing-eagle-import" part="ATM90E26">
+      <fields>
+        <field name="Value">ATM90E26</field>
+      </fields>
+      <pins>
+        <pin num="1" name="MMD1" type="input"/>
+        <pin num="2" name="DGND" type="unspc"/>
+        <pin num="3" name="DVDD" type="unspc"/>
+        <pin num="4" name="~RESET" type="input"/>
+        <pin num="5" name="AVDD" type="unspc"/>
+        <pin num="6" name="AGND@0" type="unspc"/>
+        <pin num="7" name="I2P" type="input"/>
+        <pin num="8" name="I2N" type="input"/>
+        <pin num="9" name="~RESV" type="input"/>
+        <pin num="10" name="I1P" type="input"/>
+        <pin num="11" name="I1N" type="input"/>
+        <pin num="12" name="USEL" type="input"/>
+        <pin num="13" name="VREF" type="power_in"/>
+        <pin num="14" name="AGND@1" type="unspc"/>
+        <pin num="15" name="VN" type="input"/>
+        <pin num="16" name="VP" type="input"/>
+        <pin num="17" name="WARNOUT" type="output"/>
+        <pin num="18" name="CF1" type="output"/>
+        <pin num="19" name="CF2" type="output"/>
+        <pin num="20" name="IRQ" type="output"/>
+        <pin num="21" name="ZX" type="unspc"/>
+        <pin num="22" name="OSCI" type="input"/>
+        <pin num="23" name="OSCO" type="output"/>
+        <pin num="24" name="~CS" type="input"/>
+        <pin num="25" name="SCLK" type="input"/>
+        <pin num="26" name="SDO/UTX" type="output"/>
+        <pin num="27" name="SDI/URX" type="input"/>
+        <pin num="28" name="MMD0" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="AudioJack3">
+      <description>Audio Jack, 3 Poles (Stereo / TRS)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">AudioJack3</field>
+      </fields>
+      <pins>
+        <pin num="R" name="~" type="passive"/>
+        <pin num="S" name="~" type="passive"/>
+        <pin num="T" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ATM90E26_Featherwing-eagle-import" part="C-0603">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ATM90E26_Featherwing-eagle-import" part="CON_DC_M-DC_SMD">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CON_DC_M-DC_SMD</field>
+      </fields>
+      <pins>
+        <pin num="P2" name="P2" type="passive"/>
+        <pin num="P3" name="P3" type="passive"/>
+        <pin num="P1@2" name="P1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ATM90E26_Featherwing-eagle-import" part="CPOL-US140CLH-1010">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CPOL-US140CLH-1010</field>
+      </fields>
+      <pins>
+        <pin num="+" name="+" type="passive"/>
+        <pin num="-" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ATM90E26_Featherwing-eagle-import" part="CPOL-US153CLV-0605">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CPOL-US153CLV-0605</field>
+      </fields>
+      <pins>
+        <pin num="+" name="+" type="passive"/>
+        <pin num="-" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ATM90E26_Featherwing-eagle-import" part="CRYSTALHC49UP">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">CRYSTALHC49UP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ATM90E26_Featherwing-eagle-import" part="FEATHERWING_NODIM">
+      <fields>
+        <field name="Reference">MS</field>
+        <field name="Value">FEATHERWING_NODIM</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~RESET" type="input"/>
+        <pin num="2" name="3V" type="power_in"/>
+        <pin num="3" name="AREF" type="passive"/>
+        <pin num="4" name="GND" type="unspc"/>
+        <pin num="5" name="GPIOA0" type="unspc"/>
+        <pin num="6" name="GPIOA1" type="unspc"/>
+        <pin num="7" name="GPIOA2" type="unspc"/>
+        <pin num="8" name="GPIOA3" type="unspc"/>
+        <pin num="9" name="GPIOA4" type="unspc"/>
+        <pin num="10" name="GPIOA5" type="unspc"/>
+        <pin num="11" name="GPIOSCK" type="unspc"/>
+        <pin num="12" name="GPIOMOSI" type="unspc"/>
+        <pin num="13" name="GPIOMISO" type="unspc"/>
+        <pin num="14" name="GPIORX" type="unspc"/>
+        <pin num="15" name="GPIOTX" type="unspc"/>
+        <pin num="16" name="NC" type="passive"/>
+        <pin num="17" name="GPIOSDA" type="unspc"/>
+        <pin num="18" name="GPIOSCL" type="unspc"/>
+        <pin num="19" name="GPIO5" type="unspc"/>
+        <pin num="20" name="GPIO6" type="unspc"/>
+        <pin num="21" name="GPIO9" type="unspc"/>
+        <pin num="22" name="GPIO10" type="unspc"/>
+        <pin num="23" name="GPIO11" type="unspc"/>
+        <pin num="24" name="GPIO12" type="unspc"/>
+        <pin num="25" name="GPIO13" type="unspc"/>
+        <pin num="26" name="USB" type="power_in"/>
+        <pin num="27" name="EN" type="passive"/>
+        <pin num="28" name="VBAT" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="ATM90E26_Featherwing-eagle-import" part="GROVE-CONNECTOR-SMD-90D(4+2P-2.0)">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">GROVE-CONNECTOR-SMD-90D(4+2P-2.0)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspc"/>
+        <pin num="2" name="2" type="unspc"/>
+        <pin num="3" name="3" type="unspc"/>
+        <pin num="4" name="4" type="unspc"/>
+        <pin num="SS1" name="SS1" type="unspc"/>
+        <pin num="SS2" name="SS2" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="ATM90E26_Featherwing-eagle-import" part="JUMPER-PAD-2-NOYES_SILK">
+      <fields>
+        <field name="Reference">SJ</field>
+        <field name="Value">JUMPER-PAD-2-NOYES_SILK</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ATM90E26_Featherwing-eagle-import" part="JUMPER-PAD-3-NOFULL_BOX_SILK">
+      <fields>
+        <field name="Reference">SJ</field>
+        <field name="Value">JUMPER-PAD-3-NOFULL_BOX_SILK</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ATM90E26_Featherwing-eagle-import" part="JUMPER-PAD-3-NOYES_SILK">
+      <fields>
+        <field name="Reference">SJ</field>
+        <field name="Value">JUMPER-PAD-3-NOYES_SILK</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ATM90E26_Featherwing-eagle-import" part="LED'0603'">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED'0603'</field>
+      </fields>
+      <pins>
+        <pin num="+" name="+" type="passive"/>
+        <pin num="-" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ATM90E26_Featherwing-eagle-import" part="MBRA140">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">MBRA140</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ATM90E26_Featherwing-eagle-import" part="OSHW-LOGOM">
+      <fields>
+        <field name="Reference">LOGO</field>
+        <field name="Value">OSHW-LOGOM</field>
+      </fields>
+    </libpart>
+    <libpart lib="ATM90E26_Featherwing-eagle-import" part="PMIC-CJT1117-5.0(SOT223)">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PMIC-CJT1117-5.0(SOT223)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="unspc"/>
+        <pin num="2" name="OUT" type="unspc"/>
+        <pin num="3" name="IN" type="unspc"/>
+        <pin num="TER" name="OUT" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="ATM90E26_Featherwing-eagle-import" part="RESISTOR0805">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RESISTOR0805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ATM90E26_Featherwing-eagle-import" part="SMD-DIODE-SCHOTTKY-20V-1A(SOD-123)">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SMD-DIODE-SCHOTTKY-20V-1A(SOD-123)</field>
+      </fields>
+      <pins>
+        <pin num="+" name="+" type="passive"/>
+        <pin num="-" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ATM90E26_Featherwing-eagle-import" part="SMD-RES-0R(0603)">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">SMD-RES-0R(0603)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ATM90E26_Featherwing-eagle-import" part="SMD-RES-1K(0603)">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">SMD-RES-1K(0603)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ATM90E26_Featherwing-eagle-import" part="TANTALUM-SMD-22UF-10V(AVX-A)">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">TANTALUM-SMD-22UF-10V(AVX-A)</field>
+      </fields>
+      <pins>
+        <pin num="+" name="+" type="passive"/>
+        <pin num="-" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ATM90E26_Featherwing-eagle-import" part="WIREPADSMD1,27-254">
+      <fields>
+        <field name="Reference">PAD</field>
+        <field name="Value">WIREPADSMD1,27-254</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="ATM90E26_Featherwing-eagle-import">
+      <uri>C:\Users\Tisham\Documents\kicad\ATM90E26_Featherwing/ATM90E26_Featherwing-eagle-import.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="USEL1" pin="1"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C17" pin="1"/>
+      <node ref="J3" pin="SS1"/>
+      <node ref="J3" pin="SS2"/>
+      <node ref="C16" pin="1"/>
+      <node ref="J3" pin="4"/>
+      <node ref="MMD0" pin="1"/>
+      <node ref="MMD1" pin="3"/>
+      <node ref="PWR1" pin="-"/>
+      <node ref="J2" pin="4"/>
+      <node ref="J2" pin="SS1"/>
+      <node ref="J2" pin="SS2"/>
+      <node ref="U1" pin="14"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U1" pin="9"/>
+      <node ref="U2" pin="1"/>
+      <node ref="U1" pin="6"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C7" pin="2"/>
+      <node ref="R7" pin="1"/>
+      <node ref="R8" pin="2"/>
+      <node ref="R11" pin="2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C8" pin="-"/>
+      <node ref="C1" pin="-"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C6" pin="1"/>
+      <node ref="J4" pin="P2"/>
+      <node ref="MS1" pin="4"/>
+      <node ref="C15" pin="-"/>
+      <node ref="C14" pin="-"/>
+      <node ref="C13" pin="2"/>
+    </net>
+    <net code="2" name="Net-(MS1-Pad1)">
+      <node ref="MS1" pin="1"/>
+    </net>
+    <net code="3" name="Net-(MS1-Pad10)">
+      <node ref="MS1" pin="10"/>
+    </net>
+    <net code="4" name="Net-(MS1-Pad14)">
+      <node ref="MS1" pin="14"/>
+    </net>
+    <net code="5" name="Net-(MS1-Pad15)">
+      <node ref="MS1" pin="15"/>
+    </net>
+    <net code="6" name="Net-(MS1-Pad16)">
+      <node ref="MS1" pin="16"/>
+    </net>
+    <net code="7" name="Net-(MS1-Pad19)">
+      <node ref="MS1" pin="19"/>
+    </net>
+    <net code="8" name="Net-(MS1-Pad20)">
+      <node ref="MS1" pin="20"/>
+    </net>
+    <net code="9" name="Net-(J4-PadP3)">
+      <node ref="J4" pin="P3"/>
+    </net>
+    <net code="10" name="Net-(MS1-Pad24)">
+      <node ref="MS1" pin="24"/>
+    </net>
+    <net code="11" name="Net-(MS1-Pad27)">
+      <node ref="MS1" pin="27"/>
+    </net>
+    <net code="12" name="Net-(MS1-Pad28)">
+      <node ref="MS1" pin="28"/>
+    </net>
+    <net code="13" name="Net-(MS1-Pad3)">
+      <node ref="MS1" pin="3"/>
+    </net>
+    <net code="14" name="Net-(MS1-Pad5)">
+      <node ref="MS1" pin="5"/>
+    </net>
+    <net code="15" name="Net-(MS1-Pad6)">
+      <node ref="MS1" pin="6"/>
+    </net>
+    <net code="16" name="Net-(MS1-Pad7)">
+      <node ref="MS1" pin="7"/>
+    </net>
+    <net code="17" name="Net-(MS1-Pad8)">
+      <node ref="MS1" pin="8"/>
+    </net>
+    <net code="18" name="Net-(MS1-Pad9)">
+      <node ref="MS1" pin="9"/>
+    </net>
+    <net code="19" name="/AC_VP">
+      <node ref="D1" pin="A"/>
+      <node ref="J4" pin="P1@2"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="20" name="Net-(C1-Pad+)">
+      <node ref="C1" pin="+"/>
+      <node ref="U1" pin="13"/>
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="21" name="Net-(U1-Pad17)">
+      <node ref="U1" pin="17"/>
+      <node ref="WARN1" pin="1"/>
+    </net>
+    <net code="22" name="Net-(U1-Pad21)">
+      <node ref="U1" pin="21"/>
+      <node ref="ZX1" pin="1"/>
+    </net>
+    <net code="23" name="Net-(MMD0-Pad2)">
+      <node ref="MMD0" pin="2"/>
+      <node ref="U1" pin="28"/>
+    </net>
+    <net code="24" name="Net-(CF2-Pad1)">
+      <node ref="U1" pin="19"/>
+      <node ref="CF2" pin="1"/>
+    </net>
+    <net code="25" name="/I1N_IN">
+      <node ref="R5" pin="2"/>
+      <node ref="J1" pin="S"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="26" name="Net-(J1-PadR)">
+      <node ref="J1" pin="R"/>
+    </net>
+    <net code="27" name="/I1P_IN">
+      <node ref="J1" pin="T"/>
+      <node ref="R1" pin="2"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="28" name="/5V_REG">
+      <node ref="C15" pin="+"/>
+      <node ref="C17" pin="2"/>
+      <node ref="D2" pin="+"/>
+      <node ref="U2" pin="TER"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="29" name="Net-(PWR1-Pad+)">
+      <node ref="R13" pin="2"/>
+      <node ref="PWR1" pin="+"/>
+    </net>
+    <net code="30" name="/AC_REC">
+      <node ref="C14" pin="+"/>
+      <node ref="U2" pin="3"/>
+      <node ref="C16" pin="2"/>
+      <node ref="D1" pin="C"/>
+    </net>
+    <net code="31" name="Net-(U1-Pad12)">
+      <node ref="USEL1" pin="2"/>
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="32" name="Net-(INT1-Pad1)">
+      <node ref="INT1" pin="1"/>
+      <node ref="U1" pin="20"/>
+    </net>
+    <net code="33" name="/SCLK">
+      <node ref="SCKMUX1" pin="2"/>
+      <node ref="SCLK1" pin="1"/>
+      <node ref="U1" pin="25"/>
+    </net>
+    <net code="34" name="/VP">
+      <node ref="R2" pin="2"/>
+      <node ref="R11" pin="1"/>
+      <node ref="R10" pin="2"/>
+      <node ref="U1" pin="16"/>
+      <node ref="C4" pin="2"/>
+    </net>
+    <net code="35" name="/VN">
+      <node ref="U1" pin="15"/>
+      <node ref="R3" pin="2"/>
+      <node ref="C5" pin="2"/>
+    </net>
+    <net code="36" name="/CLKOUT">
+      <node ref="C12" pin="1"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="U1" pin="23"/>
+    </net>
+    <net code="37" name="/CLKIN">
+      <node ref="U1" pin="22"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="C11" pin="1"/>
+    </net>
+    <net code="38" name="/CS">
+      <node ref="U1" pin="24"/>
+      <node ref="CSMUX1" pin="2"/>
+      <node ref="CS1" pin="1"/>
+    </net>
+    <net code="39" name="/SO/TX">
+      <node ref="J2" pin="1"/>
+      <node ref="TXMUX1" pin="2"/>
+      <node ref="U1" pin="26"/>
+      <node ref="SO/TX1" pin="1"/>
+    </net>
+    <net code="40" name="Net-(CF1-Pad1)">
+      <node ref="CF1" pin="1"/>
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="41" name="Net-(MMD1-Pad2)">
+      <node ref="U1" pin="1"/>
+      <node ref="MMD1" pin="2"/>
+    </net>
+    <net code="42" name="/SI/RX">
+      <node ref="J2" pin="2"/>
+      <node ref="U1" pin="27"/>
+      <node ref="RXMUX1" pin="2"/>
+      <node ref="SI/RX1" pin="1"/>
+    </net>
+    <net code="43" name="/SCL">
+      <node ref="MS1" pin="18"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="44" name="/SDA">
+      <node ref="MS1" pin="17"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="45" name="/SCK">
+      <node ref="MS1" pin="11"/>
+      <node ref="SCKMUX1" pin="1"/>
+    </net>
+    <net code="46" name="/MOSI">
+      <node ref="MS1" pin="12"/>
+      <node ref="RXMUX1" pin="1"/>
+    </net>
+    <net code="47" name="/USB">
+      <node ref="R13" pin="1"/>
+      <node ref="D2" pin="-"/>
+      <node ref="MS1" pin="26"/>
+    </net>
+    <net code="48" name="/ATM_RX">
+      <node ref="MS1" pin="25"/>
+      <node ref="RXMUX1" pin="3"/>
+    </net>
+    <net code="49" name="/I1N">
+      <node ref="C7" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="50" name="/CS_9">
+      <node ref="CSMUX1" pin="1"/>
+      <node ref="MS1" pin="21"/>
+    </net>
+    <net code="51" name="/MISO">
+      <node ref="MS1" pin="13"/>
+      <node ref="TXMUX1" pin="1"/>
+    </net>
+    <net code="52" name="/CS_10">
+      <node ref="MS1" pin="22"/>
+      <node ref="CSMUX1" pin="3"/>
+    </net>
+    <net code="53" name="/ATM_TX">
+      <node ref="MS1" pin="23"/>
+      <node ref="TXMUX1" pin="3"/>
+    </net>
+    <net code="54" name="/I2P">
+      <node ref="U1" pin="7"/>
+      <node ref="C13" pin="1"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="55" name="/I2N">
+      <node ref="U1" pin="8"/>
+      <node ref="R6" pin="1"/>
+      <node ref="C10" pin="2"/>
+    </net>
+    <net code="56" name="+3V3">
+      <node ref="U1" pin="5"/>
+      <node ref="J2" pin="3"/>
+      <node ref="MMD1" pin="1"/>
+      <node ref="MMD0" pin="3"/>
+      <node ref="USEL1" pin="3"/>
+      <node ref="MS1" pin="2"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C8" pin="+"/>
+      <node ref="C6" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="J3" pin="3"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="57" name="/I2P_IN">
+      <node ref="R8" pin="1"/>
+      <node ref="R9" pin="2"/>
+      <node ref="I2P_IN1" pin="1"/>
+    </net>
+    <net code="58" name="/I2N_IN">
+      <node ref="R6" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="I2N_IN1" pin="1"/>
+    </net>
+    <net code="59" name="/I1P">
+      <node ref="C3" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="U1" pin="11"/>
+    </net>
+  </nets>
+</export>
