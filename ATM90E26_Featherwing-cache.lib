@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# ATM90E26_Featherwing-eagle-import:ATM90E26
+# ATM90E26_Featherwing-eagle-import_ATM90E26
 #
-DEF ATM90E26_Featherwing-eagle-import:ATM90E26 ~ 0 40 Y Y 1 F N
+DEF ATM90E26_Featherwing-eagle-import_ATM90E26 ~ 0 40 Y Y 1 F N
 F0 "" -400 837 59 H V L BNN
-F1 "ATM90E26_Featherwing-eagle-import:ATM90E26" -400 -800 59 H V L BNN
+F1 "ATM90E26_Featherwing-eagle-import_ATM90E26" -400 -800 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -44,11 +44,11 @@ X ~RESV 9 -500 -100 100 R 50 50 1 0 I
 ENDDRAW
 ENDDEF
 #
-# ATM90E26_Featherwing-eagle-import:C-0603
+# ATM90E26_Featherwing-eagle-import_C-0603
 #
-DEF ATM90E26_Featherwing-eagle-import:C-0603 C 0 40 Y Y 1 F N
+DEF ATM90E26_Featherwing-eagle-import_C-0603 C 0 40 Y Y 1 F N
 F0 "C" -150 0 42 H V L BNN
-F1 "ATM90E26_Featherwing-eagle-import:C-0603" 0 0 42 H V L BNN
+F1 "ATM90E26_Featherwing-eagle-import_C-0603" 0 0 42 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -63,11 +63,11 @@ X 2 2 150 0 100 L 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# ATM90E26_Featherwing-eagle-import:CON_DC_M-DC_SMD
+# ATM90E26_Featherwing-eagle-import_CON_DC_M-DC_SMD
 #
-DEF ATM90E26_Featherwing-eagle-import:CON_DC_M-DC_SMD J 0 40 Y Y 1 F N
+DEF ATM90E26_Featherwing-eagle-import_CON_DC_M-DC_SMD J 0 40 Y Y 1 F N
 F0 "J" -100 300 59 H V L BNN
-F1 "ATM90E26_Featherwing-eagle-import:CON_DC_M-DC_SMD" -100 200 59 H V L BNN
+F1 "ATM90E26_Featherwing-eagle-import_CON_DC_M-DC_SMD" -100 200 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -96,11 +96,11 @@ X P3 P3 200 0 100 L 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# ATM90E26_Featherwing-eagle-import:CPOL-US140CLH-1010
+# ATM90E26_Featherwing-eagle-import_CPOL-US140CLH-1010
 #
-DEF ATM90E26_Featherwing-eagle-import:CPOL-US140CLH-1010 C 0 40 Y Y 1 F N
+DEF ATM90E26_Featherwing-eagle-import_CPOL-US140CLH-1010 C 0 40 Y Y 1 F N
 F0 "C" 40 25 59 H V L BNN
-F1 "ATM90E26_Featherwing-eagle-import:CPOL-US140CLH-1010" 40 -165 59 H V L BNN
+F1 "ATM90E26_Featherwing-eagle-import_CPOL-US140CLH-1010" 40 -165 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -115,11 +115,11 @@ X - - 0 -200 100 U 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# ATM90E26_Featherwing-eagle-import:CPOL-US153CLV-0605
+# ATM90E26_Featherwing-eagle-import_CPOL-US153CLV-0605
 #
-DEF ATM90E26_Featherwing-eagle-import:CPOL-US153CLV-0605 C 0 40 Y Y 1 F N
+DEF ATM90E26_Featherwing-eagle-import_CPOL-US153CLV-0605 C 0 40 Y Y 1 F N
 F0 "C" 40 25 59 H V L BNN
-F1 "ATM90E26_Featherwing-eagle-import:CPOL-US153CLV-0605" 40 -165 59 H V L BNN
+F1 "ATM90E26_Featherwing-eagle-import_CPOL-US153CLV-0605" 40 -165 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -134,11 +134,11 @@ X - - 0 -200 100 U 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# ATM90E26_Featherwing-eagle-import:CRYSTALHC49UP
+# ATM90E26_Featherwing-eagle-import_CRYSTALHC49UP
 #
-DEF ATM90E26_Featherwing-eagle-import:CRYSTALHC49UP Q 0 40 Y Y 1 F N
+DEF ATM90E26_Featherwing-eagle-import_CRYSTALHC49UP Q 0 40 Y Y 1 F N
 F0 "Q" 100 40 59 H V L BNN
-F1 "ATM90E26_Featherwing-eagle-import:CRYSTALHC49UP" 100 -100 59 H V L BNN
+F1 "ATM90E26_Featherwing-eagle-import_CRYSTALHC49UP" 100 -100 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -157,11 +157,11 @@ X 2 2 100 0 0 L 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# ATM90E26_Featherwing-eagle-import:FEATHERWING_NODIM
+# ATM90E26_Featherwing-eagle-import_FEATHERWING_NODIM
 #
-DEF ~ATM90E26_Featherwing-eagle-import:FEATHERWING_NODIM MS 0 40 Y Y 1 F N
+DEF ATM90E26_Featherwing-eagle-import_FEATHERWING_NODIM MS 0 40 Y Y 1 F N
 F0 "MS" 0 0 50 H I C CNN
-F1 "ATM90E26_Featherwing-eagle-import:FEATHERWING_NODIM" 0 0 50 H I C CNN
+F1 "ATM90E26_Featherwing-eagle-import_FEATHERWING_NODIM" 0 0 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -218,11 +218,11 @@ X GPIOA4 9 1000 -200 200 U 50 50 1 0 U
 ENDDRAW
 ENDDEF
 #
-# ATM90E26_Featherwing-eagle-import:GROVE-CONNECTOR-SMD-90D(4+2P-2.0)
+# ATM90E26_Featherwing-eagle-import_GROVE-CONNECTOR-SMD-90D(4+2P-2.0)
 #
-DEF ATM90E26_Featherwing-eagle-import:GROVE-CONNECTOR-SMD-90D(4+2P-2.0) J 0 40 Y Y 1 F N
+DEF ATM90E26_Featherwing-eagle-import_GROVE-CONNECTOR-SMD-90D(4+2P-2.0) J 0 40 Y Y 1 F N
 F0 "J" -300 250 42 H V L BNN
-F1 "ATM90E26_Featherwing-eagle-import:GROVE-CONNECTOR-SMD-90D(4+2P-2.0)" 50 250 42 H V L BNN
+F1 "ATM90E26_Featherwing-eagle-import_GROVE-CONNECTOR-SMD-90D(4+2P-2.0)" 50 250 42 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -239,11 +239,11 @@ X SS2 SS2 0 -300 100 U 0 0 1 0 U
 ENDDRAW
 ENDDEF
 #
-# ATM90E26_Featherwing-eagle-import:JUMPER-PAD-2-NOYES_SILK
+# ATM90E26_Featherwing-eagle-import_JUMPER-PAD-2-NOYES_SILK
 #
-DEF ATM90E26_Featherwing-eagle-import:JUMPER-PAD-2-NOYES_SILK SJ 0 40 Y Y 1 F N
+DEF ATM90E26_Featherwing-eagle-import_JUMPER-PAD-2-NOYES_SILK SJ 0 40 Y Y 1 F N
 F0 "SJ" -100 100 59 H V L BNN
-F1 "ATM90E26_Featherwing-eagle-import:JUMPER-PAD-2-NOYES_SILK" -100 -200 59 H V L BNN
+F1 "ATM90E26_Featherwing-eagle-import_JUMPER-PAD-2-NOYES_SILK" -100 -200 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -256,11 +256,11 @@ X 2 2 200 0 100 L 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# ATM90E26_Featherwing-eagle-import:JUMPER-PAD-3-NOFULL_BOX_SILK
+# ATM90E26_Featherwing-eagle-import_JUMPER-PAD-3-NOFULL_BOX_SILK
 #
-DEF ATM90E26_Featherwing-eagle-import:JUMPER-PAD-3-NOFULL_BOX_SILK SJ 0 40 Y Y 1 F N
+DEF ATM90E26_Featherwing-eagle-import_JUMPER-PAD-3-NOFULL_BOX_SILK SJ 0 40 Y Y 1 F N
 F0 "SJ" 100 15 59 H V L BNN
-F1 "ATM90E26_Featherwing-eagle-import:JUMPER-PAD-3-NOFULL_BOX_SILK" 100 -75 59 H V L BNN
+F1 "ATM90E26_Featherwing-eagle-import_JUMPER-PAD-3-NOFULL_BOX_SILK" 100 -75 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -279,11 +279,11 @@ X 3 3 0 -200 100 U 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# ATM90E26_Featherwing-eagle-import:JUMPER-PAD-3-NOYES_SILK
+# ATM90E26_Featherwing-eagle-import_JUMPER-PAD-3-NOYES_SILK
 #
-DEF ATM90E26_Featherwing-eagle-import:JUMPER-PAD-3-NOYES_SILK SJ 0 40 Y Y 1 F N
+DEF ATM90E26_Featherwing-eagle-import_JUMPER-PAD-3-NOYES_SILK SJ 0 40 Y Y 1 F N
 F0 "SJ" 100 15 59 H V L BNN
-F1 "ATM90E26_Featherwing-eagle-import:JUMPER-PAD-3-NOYES_SILK" 100 -75 59 H V L BNN
+F1 "ATM90E26_Featherwing-eagle-import_JUMPER-PAD-3-NOYES_SILK" 100 -75 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -302,11 +302,11 @@ X 3 3 0 -200 100 U 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# ATM90E26_Featherwing-eagle-import:LED'0603'
+# ATM90E26_Featherwing-eagle-import_LED'0603'
 #
-DEF ATM90E26_Featherwing-eagle-import:LED'0603' D 0 40 Y Y 1 F N
+DEF ATM90E26_Featherwing-eagle-import_LED'0603' D 0 40 Y Y 1 F N
 F0 "D" -300 100 42 H V L BNN
-F1 "ATM90E26_Featherwing-eagle-import:LED'0603'" -300 -150 42 H V L BNN
+F1 "ATM90E26_Featherwing-eagle-import_LED'0603'" -300 -150 42 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -327,11 +327,11 @@ X - - 150 0 100 L 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# ATM90E26_Featherwing-eagle-import:MBRA140
+# ATM90E26_Featherwing-eagle-import_MBRA140
 #
-DEF ATM90E26_Featherwing-eagle-import:MBRA140 D 0 40 Y Y 1 F N
+DEF ATM90E26_Featherwing-eagle-import_MBRA140 D 0 40 Y Y 1 F N
 F0 "D" 100 19 59 H V L BNN
-F1 "ATM90E26_Featherwing-eagle-import:MBRA140" 100 -91 59 H V L BNN
+F1 "ATM90E26_Featherwing-eagle-import_MBRA140" 100 -91 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -350,11 +350,11 @@ X C C 100 0 0 L 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# ATM90E26_Featherwing-eagle-import:OSHW-LOGOM
+# ATM90E26_Featherwing-eagle-import_OSHW-LOGOM
 #
-DEF ~ATM90E26_Featherwing-eagle-import:OSHW-LOGOM LOGO 0 40 Y Y 1 F N
+DEF ATM90E26_Featherwing-eagle-import_OSHW-LOGOM LOGO 0 40 Y Y 1 F N
 F0 "LOGO" 0 0 50 H I C CNN
-F1 "ATM90E26_Featherwing-eagle-import:OSHW-LOGOM" 0 0 50 H I C CNN
+F1 "ATM90E26_Featherwing-eagle-import_OSHW-LOGOM" 0 0 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -3879,11 +3879,11 @@ P 33 1 0 0 59 -142 81 -131 138 -177 177 -138 131 -81 150 -34 223 -27 223 27 150 
 ENDDRAW
 ENDDEF
 #
-# ATM90E26_Featherwing-eagle-import:PMIC-CJT1117-5.0(SOT223)
+# ATM90E26_Featherwing-eagle-import_PMIC-CJT1117-5.0(SOT223)
 #
-DEF ATM90E26_Featherwing-eagle-import:PMIC-CJT1117-5.0(SOT223) U 0 40 Y Y 1 F N
+DEF ATM90E26_Featherwing-eagle-import_PMIC-CJT1117-5.0(SOT223) U 0 40 Y Y 1 F N
 F0 "U" -300 150 42 H V L BNN
-F1 "ATM90E26_Featherwing-eagle-import:PMIC-CJT1117-5.0(SOT223)" 0 150 42 H V L BNN
+F1 "ATM90E26_Featherwing-eagle-import_PMIC-CJT1117-5.0(SOT223)" 0 150 42 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -3904,11 +3904,11 @@ X OUT TER 450 0 100 L 0 50 1 0 U
 ENDDRAW
 ENDDEF
 #
-# ATM90E26_Featherwing-eagle-import:RESISTOR0805
+# ATM90E26_Featherwing-eagle-import_RESISTOR0805
 #
-DEF ATM90E26_Featherwing-eagle-import:RESISTOR0805 R 0 40 Y Y 1 F N
+DEF ATM90E26_Featherwing-eagle-import_RESISTOR0805 R 0 40 Y Y 1 F N
 F0 "R" -100 80 50 H V L BNN
-F1 "ATM90E26_Featherwing-eagle-import:RESISTOR0805" -100 -125 50 H V L BNN
+F1 "ATM90E26_Featherwing-eagle-import_RESISTOR0805" -100 -125 50 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -3921,11 +3921,11 @@ X 2 2 200 0 100 L 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# ATM90E26_Featherwing-eagle-import:SMD-DIODE-SCHOTTKY-20V-1A(SOD-123)
+# ATM90E26_Featherwing-eagle-import_SMD-DIODE-SCHOTTKY-20V-1A(SOD-123)
 #
-DEF ATM90E26_Featherwing-eagle-import:SMD-DIODE-SCHOTTKY-20V-1A(SOD-123) D 0 40 Y Y 1 F N
+DEF ATM90E26_Featherwing-eagle-import_SMD-DIODE-SCHOTTKY-20V-1A(SOD-123) D 0 40 Y Y 1 F N
 F0 "D" -150 100 42 H V L BNN
-F1 "ATM90E26_Featherwing-eagle-import:SMD-DIODE-SCHOTTKY-20V-1A(SOD-123)" -150 -150 42 H V L BNN
+F1 "ATM90E26_Featherwing-eagle-import_SMD-DIODE-SCHOTTKY-20V-1A(SOD-123)" -150 -150 42 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -3938,11 +3938,11 @@ X - - 150 0 100 L 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# ATM90E26_Featherwing-eagle-import:SMD-RES-0R(0603)
+# ATM90E26_Featherwing-eagle-import_SMD-RES-0R(0603)
 #
-DEF ATM90E26_Featherwing-eagle-import:SMD-RES-0R(0603) R 0 40 Y Y 1 F N
+DEF ATM90E26_Featherwing-eagle-import_SMD-RES-0R(0603) R 0 40 Y Y 1 F N
 F0 "R" -150 50 42 H V L BNN
-F1 "ATM90E26_Featherwing-eagle-import:SMD-RES-0R(0603)" -150 -100 42 H V L BNN
+F1 "ATM90E26_Featherwing-eagle-import_SMD-RES-0R(0603)" -150 -100 42 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -3955,11 +3955,11 @@ X 2 2 150 0 100 L 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# ATM90E26_Featherwing-eagle-import:SMD-RES-1K(0603)
+# ATM90E26_Featherwing-eagle-import_SMD-RES-1K(0603)
 #
-DEF ATM90E26_Featherwing-eagle-import:SMD-RES-1K(0603) R 0 40 Y Y 1 F N
+DEF ATM90E26_Featherwing-eagle-import_SMD-RES-1K(0603) R 0 40 Y Y 1 F N
 F0 "R" -150 50 42 H V L BNN
-F1 "ATM90E26_Featherwing-eagle-import:SMD-RES-1K(0603)" -150 -100 42 H V L BNN
+F1 "ATM90E26_Featherwing-eagle-import_SMD-RES-1K(0603)" -150 -100 42 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -3972,11 +3972,11 @@ X 2 2 150 0 100 L 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# ATM90E26_Featherwing-eagle-import:SUPPLY_+3V3
+# ATM90E26_Featherwing-eagle-import_SUPPLY_+3V3
 #
-DEF ATM90E26_Featherwing-eagle-import:SUPPLY_+3V3 +3V3 0 40 Y Y 1 F P
+DEF ATM90E26_Featherwing-eagle-import_SUPPLY_+3V3 +3V3 0 40 Y Y 1 F P
 F0 "+3V3" 0 0 50 H I C CNN
-F1 "ATM90E26_Featherwing-eagle-import:SUPPLY_+3V3" 0 100 59 H V L BNN
+F1 "ATM90E26_Featherwing-eagle-import_SUPPLY_+3V3" 0 100 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -3986,11 +3986,11 @@ X +3V3 1 0 0 100 U 0 0 1 0 W
 ENDDRAW
 ENDDEF
 #
-# ATM90E26_Featherwing-eagle-import:SUPPLY_GND
+# ATM90E26_Featherwing-eagle-import_SUPPLY_GND
 #
-DEF ATM90E26_Featherwing-eagle-import:SUPPLY_GND GND 0 40 Y Y 1 F P
+DEF ATM90E26_Featherwing-eagle-import_SUPPLY_GND GND 0 40 Y Y 1 F P
 F0 "GND" 0 0 50 H I C CNN
-F1 "ATM90E26_Featherwing-eagle-import:SUPPLY_GND" -60 -80 59 H V L BNN
+F1 "ATM90E26_Featherwing-eagle-import_SUPPLY_GND" -60 -80 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -3999,11 +3999,11 @@ X GND 1 0 100 100 D 0 0 1 0 W
 ENDDRAW
 ENDDEF
 #
-# ATM90E26_Featherwing-eagle-import:TANTALUM-SMD-22UF-10V(AVX-A)
+# ATM90E26_Featherwing-eagle-import_TANTALUM-SMD-22UF-10V(AVX-A)
 #
-DEF ATM90E26_Featherwing-eagle-import:TANTALUM-SMD-22UF-10V(AVX-A) C 0 40 Y Y 1 F N
+DEF ATM90E26_Featherwing-eagle-import_TANTALUM-SMD-22UF-10V(AVX-A) C 0 40 Y Y 1 F N
 F0 "C" -250 150 42 H V L BNN
-F1 "ATM90E26_Featherwing-eagle-import:TANTALUM-SMD-22UF-10V(AVX-A)" 50 150 42 H V L BNN
+F1 "ATM90E26_Featherwing-eagle-import_TANTALUM-SMD-22UF-10V(AVX-A)" 50 150 42 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -4017,11 +4017,11 @@ X - - 150 0 100 L 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# ATM90E26_Featherwing-eagle-import:WIREPADSMD1,27-254
+# ATM90E26_Featherwing-eagle-import_WIREPADSMD1,27-254
 #
-DEF ATM90E26_Featherwing-eagle-import:WIREPADSMD1,27-254 PAD 0 40 Y Y 1 F N
+DEF ATM90E26_Featherwing-eagle-import_WIREPADSMD1,27-254 PAD 0 40 Y Y 1 F N
 F0 "PAD" -45 73 59 H V L BNN
-F1 "ATM90E26_Featherwing-eagle-import:WIREPADSMD1,27-254" -45 -130 59 H V L BNN
+F1 "ATM90E26_Featherwing-eagle-import_WIREPADSMD1,27-254" -45 -130 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -4031,11 +4031,11 @@ X P 1 100 0 100 L 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# Connector:AudioJack3
+# Connector_AudioJack3
 #
-DEF Connector:AudioJack3 J 0 20 Y Y 1 F N
+DEF Connector_AudioJack3 J 0 20 Y Y 1 F N
 F0 "J" 0 350 50 H V C CNN
-F1 "Connector:AudioJack3" 0 250 50 H V C CNN
+F1 "Connector_AudioJack3" 0 250 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
