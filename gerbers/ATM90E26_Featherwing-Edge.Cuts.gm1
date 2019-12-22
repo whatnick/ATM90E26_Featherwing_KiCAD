@@ -1,11 +1,11 @@
 G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(2018-02-15 revision 29b28de31)-makepkg*
-G04 #@! TF.CreationDate,2018-11-16T08:15:48+03:00*
+G04 #@! TF.CreationDate,2019-09-05T06:32:13+03:00*
 G04 #@! TF.ProjectId,ATM90E26_Featherwing,41544D39304532365F46656174686572,rev?*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Profile,NP*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (2018-02-15 revision 29b28de31)-makepkg) date 11/16/18 08:15:48*
+G04 Created by KiCad (PCBNEW (2018-02-15 revision 29b28de31)-makepkg) date 09/05/19 06:32:13*
 %MOMM*%
 %LPD*%
 G01*

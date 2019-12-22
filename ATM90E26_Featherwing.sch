@@ -371,22 +371,10 @@ Wire Wire Line
 	7150 3400 7000 3400
 Text Label 3580 5260 2    70   ~ 0
 I1P_IN
-Wire Wire Line
-	1950 5500 1950 5650
-Wire Wire Line
-	1950 5650 3090 5650
-Wire Wire Line
-	3090 5650 3090 5260
 Text Label 6970 2600 0    70   ~ 0
 I1N_IN
 Wire Wire Line
 	7150 2600 6970 2600
-Wire Wire Line
-	2550 4700 2550 4520
-Wire Wire Line
-	2550 4520 3250 4520
-Wire Wire Line
-	3250 4860 3580 4860
 Connection ~ 7100 1300
 Text Label 6700 1300 0    70   ~ 0
 I2P_IN
@@ -1125,17 +1113,6 @@ F 3 "" H 5660 6700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L ATM90E26_Featherwing-eagle-import:AUDIO-JACK-6P-SMD(ST-PJ-312) J1
-U 1 0 80165544
-P 2300 5100
-F 0 "J1" H 2050 5350 42  0000 L BNN
-F 1 "ST-PJ-312" H 2200 4800 42  0000 L BNN
-F 2 "ATM90E26_Featherwing:AUDIO6P-SMD-3.5-14.0X6.4X5.0MM" H 2300 5100 50  0001 C CNN
-F 3 "" H 2300 5100 50  0001 C CNN
-	1    2300 5100
-	-1   0    0    1   
-$EndComp
-$Comp
 L ATM90E26_Featherwing-eagle-import:RESISTOR0805 R12
 U 1 0 749259AA
 P 3250 5060
@@ -1358,8 +1335,6 @@ Wire Wire Line
 Wire Wire Line
 	3500 1200 3650 1200
 Wire Wire Line
-	3090 5260 3250 5260
-Wire Wire Line
 	3700 6100 4050 6100
 Wire Wire Line
 	1580 2100 1700 2100
@@ -1421,9 +1396,6 @@ Wire Wire Line
 	7100 1850 7100 1900
 Text Label 3415 4860 2    70   ~ 0
 I1N_IN
-Wire Wire Line
-	3250 4520 3250 4860
-Connection ~ 3250 4860
 Connection ~ 3250 5260
 Wire Wire Line
 	3250 5260 3580 5260
@@ -1444,20 +1416,38 @@ NoConn ~ 9800 3000
 NoConn ~ 9700 3000
 NoConn ~ 9500 3000
 NoConn ~ 9300 3000
-NoConn ~ 2650 5500
-NoConn ~ 2150 5500
-NoConn ~ 1850 4700
 NoConn ~ 2000 6500
 NoConn ~ 10600 1300
 NoConn ~ 10500 1300
 NoConn ~ 10100 1300
 NoConn ~ 9800 1300
 NoConn ~ 9700 1300
-NoConn ~ 2750 4700
 NoConn ~ 10000 3000
 Wire Wire Line
 	9400 3000 9400 3340
 Connection ~ 2820 7000
 Wire Wire Line
 	2820 7000 3700 7000
+$Comp
+L Connector:AudioJack3 J1
+U 1 1 5D0721CB
+P 2700 5055
+F 0 "J1" H 2680 5380 50  0000 C CNN
+F 1 "AudioJack3" H 2680 5289 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal" H 2700 5055 50  0001 C CNN
+F 3 "~" H 2700 5055 50  0001 C CNN
+	1    2700 5055
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 4860 2900 4955
+Wire Wire Line
+	2900 4860 3250 4860
+Connection ~ 3250 4860
+Wire Wire Line
+	3250 4860 3580 4860
+Wire Wire Line
+	2900 5155 2900 5260
+Wire Wire Line
+	2900 5260 3250 5260
 $EndSCHEMATC
