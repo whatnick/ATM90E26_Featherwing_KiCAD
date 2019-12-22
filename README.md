@@ -1,8 +1,8 @@
 # ATM90E26_Featherwing_KiCAD
 ATM90E26 Featherwing with ongoing development in KiCAD
-Previous Eagle version available here: https://github.com/whatnick/ATM90E26_Featherwing
-Arduino Library is available here: https://github.com/whatnick/ATM90E26_Arduino
-Micropython Library is available here: https://github.com/whatnick/ATM90E26_Micropython
+- Previous Eagle version available here: https://github.com/whatnick/ATM90E26_Featherwing
+- Arduino Library is available here: https://github.com/whatnick/ATM90E26_Arduino
+- Micropython Library is available here: https://github.com/whatnick/ATM90E26_Micropython
 
 # Connection to Host CPU
 The boards can be connected in 2 ways with different corresponding jumper settings underneath the board:
