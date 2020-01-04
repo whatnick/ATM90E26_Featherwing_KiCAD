@@ -22,3 +22,8 @@ Using the MMD jumper various metering modes can be selected as specified by the 
 The ATM90E26 can acquire 1 voltage and 2 current waveforms to perform energy measurement.
 - Voltage sampling using step-down transformer (9V-12V) and voltage divider
 - Current sampling using CT with multiplier resistor
+
+# Licence Details
+- Hardware License: TAPR 1.0
+- Software License: MIT
+- Documentation License: CC BY 4.0 International
